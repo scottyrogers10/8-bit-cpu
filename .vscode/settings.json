@@ -1,0 +1,17 @@
+{
+	"[html]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+	"[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode", "editor.tabSize": 2 },
+	"[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+	"[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+	"diffEditor.ignoreTrimWhitespace": false,
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"editor.tabSize": 2,
+	"files.associations": { "*.svg": "html" },
+	"files.trimTrailingWhitespace": true,
+	"javascript.updateImportsOnFileMove.enabled": "never",
+	"search.exclude": { "**/bower_components": true, "**/node_modules": true },
+	"task.problemMatchers.neverPrompt": { "shell": true },
+	"trailing-spaces.trimOnSave": true,
+	"typescript.suggest.autoImports": false
+}

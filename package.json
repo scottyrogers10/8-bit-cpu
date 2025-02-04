@@ -1,0 +1,45 @@
+{
+	"name": "8-bit-cpu",
+	"author": "Scotty Rogers",
+	"version": "0.0.1",
+	"main": "src/index.js",
+	"repository": "https://github.com/scottyrogers10/8-bit-cpu.git",
+	"license": "MIT",
+	"scripts": {
+		"build": "webpack --config webpack/prod.js",
+		"start": "webpack serve --config webpack/dev.js"
+	},
+	"dependencies": {
+		"aphrodite": "2.4.0",
+		"react": "18.3.1",
+		"react-dom": "18.3.1"
+	},
+	"devDependencies": {
+		"@babel/core": "7.26.7",
+		"@babel/preset-env": "7.26.7",
+		"@babel/preset-react": "7.26.3",
+		"@eslint/js": "9.19.0",
+		"@stylistic/eslint-plugin-js": "3.0.1",
+		"@trivago/prettier-plugin-sort-imports": "5.2.2",
+		"babel-loader": "8.4.1",
+		"babel-plugin-module-resolver": "4.1.0",
+		"clean-webpack-plugin": "4.0.0",
+		"copy-webpack-plugin": "10.2.4",
+		"css-loader": "6.11.0",
+		"eslint": "9.19.0",
+		"eslint-config-prettier": "10.0.1",
+		"eslint-plugin-perfectionist": "4.7.0",
+		"eslint-plugin-react": "7.37.4",
+		"eslint-plugin-sort-destructure-keys": "2.0.0",
+		"eslint-plugin-unused-imports": "4.1.4",
+		"file-loader": "6.2.0",
+		"globals": "15.14.0",
+		"html-webpack-plugin": "5.6.3",
+		"prettier": "3.4.2",
+		"style-loader": "3.3.4",
+		"webpack": "5.97.1",
+		"webpack-cli": "4.10.0",
+		"webpack-dev-server": "3.11.3",
+		"webpack-merge": "5.10.0"
+	}
+}

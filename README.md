@@ -1,2 +1,3 @@
 # 8-bit-cpu
-A simple homemade 8 bit computer emulated with js.
+
+A simple 8 bit virtual machine made with js.
