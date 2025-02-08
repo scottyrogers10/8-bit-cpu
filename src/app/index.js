@@ -1,7 +1,7 @@
 import React from "react";
 import { View } from "#library/components";
 import { useStyles } from "#library/hooks";
-import { Screen } from "./components";
+import { Screen, TextEditor } from "./components";
 import styles from "./styles";
 
 const App = ({ style = {}, ...props }) => {
@@ -9,7 +9,8 @@ const App = ({ style = {}, ...props }) => {
 
 	return (
 		<View style={[stylesheet.root, style]} {...props}>
-			<Screen />
+			<Screen style={stylesheet.screen} />
+			<TextEditor mt={16} p={8} rows={16} style={stylesheet.editor} />
 		</View>
 	);
 };

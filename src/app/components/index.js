@@ -1,3 +1,4 @@
 import Screen from "./Screen";
+import TextEditor from "./TextEditor";
 
-export { Screen };
+export { TextEditor, Screen };
