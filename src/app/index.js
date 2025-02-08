@@ -10,7 +10,7 @@ const App = ({ style = {}, ...props }) => {
 	return (
 		<View style={[stylesheet.root, style]} {...props}>
 			<Screen style={stylesheet.screen} />
-			<TextEditor mt={16} p={8} rows={16} style={stylesheet.editor} />
+			<TextEditor mt={16} p={8} style={stylesheet.editor} />
 		</View>
 	);
 };

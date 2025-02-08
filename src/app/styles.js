@@ -1,5 +1,6 @@
 export default {
 	editor: {
+		minHeight: "275px",
 		width: "800px",
 	},
 	root: {
