@@ -11,6 +11,7 @@
 	},
 	"dependencies": {
 		"aphrodite": "2.4.0",
+		"data-chamber": "0.0.5",
 		"react": "18.3.1",
 		"react-dom": "18.3.1"
 	},
@@ -19,7 +20,6 @@
 		"@babel/preset-env": "7.26.7",
 		"@babel/preset-react": "7.26.3",
 		"@eslint/js": "9.19.0",
-		"@stylistic/eslint-plugin-js": "3.0.1",
 		"@trivago/prettier-plugin-sort-imports": "5.2.2",
 		"babel-loader": "8.4.1",
 		"babel-plugin-module-resolver": "4.1.0",

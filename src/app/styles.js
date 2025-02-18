@@ -1,13 +1,13 @@
 export default {
 	editor: {
-		minHeight: "275px",
-		width: "800px",
+		minHeight: "326px",
+		width: "400px",
 	},
 	root: {
 		padding: "24px",
 	},
 	screen: {
-		height: "600px",
-		width: "800px",
+		height: "400px",
+		width: "400px",
 	},
 };

@@ -990,14 +990,6 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@stylistic/eslint-plugin-js@3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@stylistic/eslint-plugin-js/-/eslint-plugin-js-3.0.1.tgz#15638c55a9adab2c110243a9f0d812264b067aab"
-  integrity sha512-hjp6BKXSUdlY4l20pDb0EjIB5PtQDGihk2EUKCjJ5gaRVfcmMMkaIyVd/yK3oH7OLxWWBxJ8qSSo+zEdkmpnYA==
-  dependencies:
-    eslint-visitor-keys "^4.2.0"
-    espree "^10.3.0"
-
 "@trivago/prettier-plugin-sort-imports@5.2.2":
   version "5.2.2"
   resolved "https://registry.yarnpkg.com/@trivago/prettier-plugin-sort-imports/-/prettier-plugin-sort-imports-5.2.2.tgz#38983f0b83490a0a7d974a6f1e409fb4bf678d02"
@@ -2075,6 +2067,11 @@ cssesc@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/cssesc/-/cssesc-3.0.0.tgz#37741919903b868565e1c09ea747445cd18983ee"
   integrity sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==
+
+data-chamber@0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/data-chamber/-/data-chamber-0.0.5.tgz#75823a4239014ea2b3fc196efb153947bc267f98"
+  integrity sha512-TfU5+0yg0GSBfl4hk5v2f78lVtsAJlH+TssjyvpSIS0MCdLWbygx+0MbvCAa3nsbKJswvtgpnoLNOTp5YitEKA==
 
 data-view-buffer@^1.0.2:
   version "1.0.2"

@@ -4,8 +4,14 @@
 		"paths": {
 			"#app": ["./src/app"],
 			"#app/*": ["./src/app/*"],
+			"#core": ["./src/core"],
+			"#core/*": ["./src/core/*"],
+			"#hooks": ["./src/hooks"],
+			"#hooks/*": ["./src/hooks/*"],
 			"#library": ["./src/library"],
-			"#library/*": ["./src/library/*"]
+			"#library/*": ["./src/library/*"],
+			"#store": ["./src/store"],
+			"#store/*": ["./src/store/*"]
 		}
 	}
 }

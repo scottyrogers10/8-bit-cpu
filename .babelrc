@@ -5,7 +5,10 @@
 			{
 				"alias": {
 					"#app": "./src/app",
-					"#library": "./src/library"
+					"#core": "./src/core",
+					"#hooks": "./src/hooks",
+					"#library": "./src/library",
+					"#store": "./src/store"
 				},
 				"root": ["./src"]
 			}

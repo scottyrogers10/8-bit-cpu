@@ -5,8 +5,6 @@ import sortDestructureKeysPlugin from "eslint-plugin-sort-destructure-keys";
 import unusedImportsPlugin from "eslint-plugin-unused-imports";
 import globals from "globals";
 import js from "@eslint/js";
-import stylisticPlugin from "@stylistic/eslint-plugin-js";
-import customPlugin from "./eslint/plugin/index.js";
 
 export default [
 	js.configs.recommended,
@@ -16,19 +14,12 @@ export default [
 			parserOptions: { ecmaFeatures: { jsx: true } },
 		},
 		plugins: {
-			"@stylistic/js": stylisticPlugin,
-			"custom": customPlugin,
 			"perfectionist": perfectionistPlugin,
 			"react": reactPlugin,
 			"sort-destructure-keys": sortDestructureKeysPlugin,
 			"unused-imports": unusedImportsPlugin,
 		},
 		rules: {
-			"@stylistic/js/padding-line-between-statements": [
-				"error",
-				{ blankLine: "always", next: "*", prev: ["const", "let", "var"] },
-				{ blankLine: "any", next: ["const", "let", "var"], prev: ["const", "let", "var"] },
-			],
 			"no-console": "error",
 			"no-debugger": "error",
 			"no-unused-vars": "off",
