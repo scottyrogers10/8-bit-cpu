@@ -2,16 +2,14 @@ import { gpu, memory, opcodes } from "#core";
 import { intToHex } from "#library/utils/converters";
 
 const state = { a: 0, pc: 0, x: 0, y: 0 };
+const statusFlags = { carry: 0, zero: 0 };
 
 const loop = () => {
 	const opcode = intToHex(memory.get(state.pc));
-	const instruction = opcodes[opcode];
+	const { execute } = opcodes[opcode];
 
-	instruction.execute({ memory, state });
-	state.pc += instruction.bytes;
-
+	execute({ memory, state, statusFlags });
 	gpu.render(memory);
-
 	requestAnimationFrame(loop);
 };
 
@@ -19,8 +17,10 @@ const init = (prg = "") => {
 	state.a = 0;
 	state.x = 0;
 	state.y = 0;
-
 	state.pc = 4096;
+
+	statusFlags.carry = 0;
+	statusFlags.zero = 0;
 
 	memory.reset();
 	memory.load(state.pc, prg);
