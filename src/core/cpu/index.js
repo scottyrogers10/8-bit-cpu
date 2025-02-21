@@ -1,6 +1,7 @@
 import { gpu, memory, opcodes } from "#core";
 import { intToHex } from "#library/utils/converters";
 
+const frame = { id: null };
 const state = { a: 0, pc: 0, x: 0, y: 0 };
 const statusFlags = { carry: 0, zero: 0 };
 
@@ -10,10 +11,12 @@ const loop = () => {
 
 	execute({ memory, state, statusFlags });
 	gpu.render(memory);
-	requestAnimationFrame(loop);
+	frame.id = requestAnimationFrame(loop);
 };
 
 const init = (prg = "") => {
+	cancelAnimationFrame(frame.id);
+
 	state.a = 0;
 	state.x = 0;
 	state.y = 0;

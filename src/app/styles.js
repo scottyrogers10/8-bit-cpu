@@ -8,6 +8,8 @@ export default {
 	},
 	screen: {
 		height: "400px",
+		minHeight: "400px",
+		minWidth: "400px",
 		width: "400px",
 	},
 };

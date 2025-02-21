@@ -1,8 +1,9 @@
 import { useState } from "react";
+import rom from "#roms/demo";
 import store from "#store";
 
 export default () => {
-	const [value, setValue] = useState("");
+	const [value, setValue] = useState(rom);
 
 	const change = (event) => {
 		const regex = /^[A-Fa-f0-9\s\n]*$/;

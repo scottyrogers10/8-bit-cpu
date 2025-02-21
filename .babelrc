@@ -8,6 +8,7 @@
 					"#core": "./src/core",
 					"#hooks": "./src/hooks",
 					"#library": "./src/library",
+					"#roms": "./src/roms",
 					"#store": "./src/store"
 				},
 				"root": ["./src"]

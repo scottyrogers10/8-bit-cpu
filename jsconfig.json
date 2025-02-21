@@ -10,6 +10,8 @@
 			"#hooks/*": ["./src/hooks/*"],
 			"#library": ["./src/library"],
 			"#library/*": ["./src/library/*"],
+			"#roms": ["./src/roms"],
+			"#roms/*": ["./src/roms/*"],
 			"#store": ["./src/store"],
 			"#store/*": ["./src/store/*"]
 		}
