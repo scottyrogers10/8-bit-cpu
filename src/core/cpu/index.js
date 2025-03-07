@@ -3,7 +3,7 @@ import { intToHex } from "#library/utils/converters";
 
 const frame = { id: null };
 const state = { a: 0, pc: 0, x: 0, y: 0 };
-const statusFlags = { carry: 0, zero: 0 };
+const statusFlags = { carry: 0, negative: 0, zero: 0 };
 
 const loop = () => {
 	const opcode = intToHex(memory.get(state.pc));
@@ -23,6 +23,7 @@ const init = (prg = "") => {
 	state.pc = 4096;
 
 	statusFlags.carry = 0;
+	statusFlags.negative = 0;
 	statusFlags.zero = 0;
 
 	memory.reset();
